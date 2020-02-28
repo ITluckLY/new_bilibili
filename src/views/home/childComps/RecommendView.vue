@@ -43,8 +43,8 @@
   }
 
   .recommeds-item img {
-    width: 100px;
-    height: 100px;
+    width: 65px;
+    height: 65px;
     margin-bottom: 10px;
   }
 
