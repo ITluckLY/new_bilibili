@@ -17,12 +17,16 @@
 			probeType: {
 				type: Number,
 				default: 0
-			}
-		},
+			},
+      pullUpLoad: {
+        type: Boolean,
+        default: false
+      }
+    },
 		data() {
 			return {
 				msg: '初始代模板',
-				scroll: ''
+				scroll: null
 			}
 		},
 		mounted() {
@@ -59,7 +63,16 @@
 		methods: {
 			scrollTo(x, y, time) {
 				this.scroll.scrollTo(x, y, time)
-			}
+			},
+      refresh(){
+		    this.scroll && this.scroll.refresh()
+      },
+      finishPullUp(){
+				this.scroll && this.scroll.finishPullUp()
+      },
+      getScrollY(){
+				return this.scroll ? this.scroll.y : 0
+      }
 		}
 
 	}

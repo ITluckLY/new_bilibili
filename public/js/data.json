@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "list": [
+      {
+        "id": "1",
+        "name": "苹果",
+        "img_url": "http://demo.dtcms.net/upload/201504/18/thumb_201504181416251481.jpg"
+      },
+      {
+        "id": "2",
+        "name": "香蕉",
+        "img_url": "http://demo.dtcms.net/upload/201504/18/thumb_201504181416251481.jpg"
+      },
+      {
+        "id": "3",
+        "name": "梨子",
+        "img_url": "http://demo.dtcms.net/upload/201504/18/thumb_201504181416251481.jpg"
+      },
+      {
+        "id": "4",
+        "name": "葡萄",
+        "img_url": "http://demo.dtcms.net/upload/201504/18/thumb_201504181416251481.jpg"
+      },
+      {
+        "id": "5",
+        "name": "哈密瓜"
+      },
+      {
+        "id": "6",
+        "name": "西瓜"
+      },
+      {
+        "id": "7",
+        "name": "橙子"
+      }
+    ]
+  }
+}

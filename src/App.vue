@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <keep-alive> <!-- 此处添加keep-alive :目的就是为了防止 过度的销毁、创建。 -->
+          <router-view></router-view>
+    </keep-alive>
+
 <!--    <nav-bar></nav-bar>-->
     <tabBar-views></tabBar-views>
   </div>
